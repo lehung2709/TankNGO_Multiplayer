@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6843b6e184bbfdf488e5573ac445d5bc, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundName: Shoot
+    clip: {fileID: 8300000, guid: 21ee668da6806ef4ab4fb5fbc258d11f, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 1
+  - soundName: Btn
+    clip: {fileID: 8300000, guid: 1caa777d74b5fdb47bcfc3e873b13db5, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 0
+  - soundName: ShieldBreak
+    clip: {fileID: 8300000, guid: ae6c1c036e800104b880c3c30fa2e8af, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 1
+  - soundName: MenuMusic
+    clip: {fileID: 8300000, guid: fed7976368b2ce04f98538f6fae8d7ec, type: 3}
+    mixerGroup: {fileID: -8086212971992791946, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 1
+    is3D: 0
+  - soundName: IngameMusic
+    clip: {fileID: 8300000, guid: c6f5e3141720cd7499bb790b877de175, type: 3}
+    mixerGroup: {fileID: -8086212971992791946, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 1
+    is3D: 0
+  - soundName: Pickup
+    clip: {fileID: 8300000, guid: 5e6c0bb34279bef4395023a8e40e64cb, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 0
+  - soundName: Heal
+    clip: {fileID: 8300000, guid: f7564b77271c3f1488f3cf2a9d96d6cd, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 0
+  - soundName: Heal
+    clip: {fileID: 8300000, guid: f7564b77271c3f1488f3cf2a9d96d6cd, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 0
+  - soundName: RetroExplode
+    clip: {fileID: 8300000, guid: 18a2ca97fe5efc24d9e24c898ea30581, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 1
+  - soundName: Explode
+    clip: {fileID: 8300000, guid: 66757b0e58ebabd4e9d32ea857a5f69f, type: 3}
+    mixerGroup: {fileID: -1618983952115861178, guid: 8bc84c2070811cd4592eba4fe5ec9b2e, type: 2}
+    loop: 0
+    is3D: 1
